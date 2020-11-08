@@ -1,0 +1,1 @@
+# [ doc = "Reader of register WND" ] pub type R = crate :: R < u32 , super :: WND > ; # [ doc = "Reader of field `WND`" ] pub type WND_R = crate :: R < u16 , u16 > ; impl R { # [ doc = "Bits 0:11 - Watchdog counter window value" ] # [ inline ( always ) ] pub fn wnd ( & self ) -> WND_R { WND_R :: new ( ( self . bits & 0x0fff ) as u16 ) } }

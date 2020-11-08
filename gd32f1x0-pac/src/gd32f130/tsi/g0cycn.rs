@@ -1,0 +1,1 @@
+# [ doc = "Reader of register G0CYCN" ] pub type R = crate :: R < u32 , super :: G0CYCN > ; # [ doc = "Reader of field `CYCN`" ] pub type CYCN_R = crate :: R < u16 , u16 > ; impl R { # [ doc = "Bits 0:13 - Cycle number" ] # [ inline ( always ) ] pub fn cycn ( & self ) -> CYCN_R { CYCN_R :: new ( ( self . bits & 0x3fff ) as u16 ) } }

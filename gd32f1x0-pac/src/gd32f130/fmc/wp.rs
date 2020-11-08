@@ -1,0 +1,2 @@
+# [ doc = "Reader of register WP" ] pub type R = crate :: R < u32 , super :: WP > ; # [ doc = "Reader of field `OB_WP`" ] pub type OB_WP_R = crate :: R < u16 , u16 > ; impl R { # [ doc = "Bits 0:15 - Store OB_WP\\[15:0\\]
+of option byte block after system reset" ] # [ inline ( always ) ] pub fn ob_wp ( & self ) -> OB_WP_R { OB_WP_R :: new ( ( self . bits & 0xffff ) as u16 ) } }
